@@ -4,3 +4,20 @@
 
 // Dependencies
 @import "bourbon/core/bourbon";
+
+// Logic
+@import "logic/borders";
+@import "logic/colors";
+@import "logic/spaces";
+@import "logic/type";
+@import "logic/z-index";
+
+// Base Dependencies
+@import "base/root";
+
+// Base
+@import "base/lists";
+@import "base/typography";
+
+// Utilities
+@import "utilities/hide-visually";
