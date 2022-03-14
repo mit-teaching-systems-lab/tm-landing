@@ -1,0 +1,11 @@
+@include font-face("Lato", $dir-font + "Lato-Regular") {
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@include font-face("Lato", $dir-font + "Lato-Black") {
+  font-display: swap;
+  font-style: normal;
+  font-weight: bold;
+}
