@@ -1,20 +1,13 @@
-<h2>Dive deeper into Teacher Moments</h2>
-<p>Become a power user and explore even more features for creating and running your simulations.</p>
-<ul>
+<h2>{{ deep_features.title }}</h2>
+<p>{{ deep_features.description }}</p>
+<ul role="list">
+  {% for item in deep_features.list %}
   <li>
-    <h3>Track Participant Choices for Facilitation and Debrief</h3>
-    <p>Rich data dashboards allow facilitators to see participant choices and prepare for debriefing, while complete data downloads support rigorous research on teacher learning.</p>
+    <img src="{{ item.image.url }}" alt="{{ item.image.alt }}" />
+    <div>
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.description }}</p>
+    </div>
   </li>
-  <li>
-    <h3>Choices Matter</h3>
-    <p>Through scenario branching, create “choose-your-own” adventure scenarios that let participants understand the consequences of their choices.</p>
-  </li>
-  <li>
-    <h3>AI Coaches</h3>
-    <p>Artificially intelligent coaching agents can listen to participants as they play scenarios and offer dynamic supports to help learners reflect and practice.</p>
-  </li>
-  <li>
-    <h3>Multiplayer Scenarios</h3>
-    <p>Real-time chat allows for participants to roleplay together as teachers and students.</p>
-  </li>
+  {% endfor %}
 </ul>
