@@ -1,3 +1,11 @@
 body {
+  background-color: var(--color--background-primary);
+}
+
+.t-highlight {
   background-color: var(--color--background-highlight);
+}
+
+.t-mid {
+  background-color: var(--color--background-secondary);
 }
