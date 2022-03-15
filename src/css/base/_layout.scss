@@ -2,9 +2,5 @@ section {
   display: grid;
   grid-template-columns: minmax(auto, var(--container--base));
   justify-content: center;
-  padding: var(--space--base);
-}
-
-.l-hero {
-  text-align: center;
+  padding: var(--space--large);
 }
