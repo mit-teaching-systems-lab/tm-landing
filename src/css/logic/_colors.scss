@@ -4,11 +4,13 @@ $colors-palette: (
   dark-green: #174650,
   gray: #f6f6f6,
   mauve: #853d61,
+  mauve-dark: #5c1a3b,
   white: #ffffff
 );
 
 $colors-sections: (
   accent: mauve,
+  accent-dark: mauve-dark,
   background-primary: white,
   background-secondary: gray,
   background-highlight: beige,
