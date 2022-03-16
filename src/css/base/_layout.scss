@@ -60,6 +60,10 @@ nav ul {
 	grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
 }
 
+.footer-logo {
+	margin-bottom: 2rem;
+}
+
 footer ul {
 	columns: 2;
 
