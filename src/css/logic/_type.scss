@@ -12,14 +12,17 @@ $type-weights: (
 $type-pixel-scale: (
   small: 14,
   base: 16,
-  medium: 20,
-  large: 32,
+  medium: 24,
+  large: 36,
 );
 
 $type-sizes: (
-  body: base
+  body: base,
+  title-large: large,
+  title-medium: medium
 );
 
 $line-heights: (
-  base: 1.3
+  base: 1.3,
+  tight: 1.1
 );

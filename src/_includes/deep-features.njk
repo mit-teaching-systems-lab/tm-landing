@@ -1,6 +1,6 @@
 <h2>{{ deep_features.title }}</h2>
 <p>{{ deep_features.description }}</p>
-<ul role="list">
+<ul class="l-list l-list--secondary" role="list">
   {% for item in deep_features.list %}
   <li>
     <img src="{{ item.image.url }}" alt="{{ item.image.alt }}" />

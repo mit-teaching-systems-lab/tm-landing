@@ -5,3 +5,33 @@ section {
   justify-content: center;
   padding: var(--space--large);
 }
+
+.l-list {
+  display: grid;
+  grid-gap: var(--space--large);
+
+  li {
+    align-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space--medium);
+
+    > * {
+      flex: 1;
+    }
+  }
+}
+
+.l-list--primary {
+  li {
+    align-items: center;
+
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+.l-list--secondary {
+  grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
+}
