@@ -36,6 +36,15 @@ blockquote {
   font-size: clamp(1.5rem, 1.5vw, 2.5rem);
   margin: 0;
 
+  &::before {
+    color: var(--color--accent);
+    content: "\201C";
+    display: block;
+    font-size: 500%;
+    line-height: 0;
+    transform: translate(-10%, 2.5rem);
+  }
+
   + figcaption {
     text-align: right;
 
