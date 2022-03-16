@@ -6,6 +6,11 @@ section {
   padding: var(--space--large);
 }
 
+.l-small {
+  margin: 0 auto;
+  max-width: 65ch;
+}
+
 .l-list {
   display: grid;
   grid-gap: var(--space--large);

@@ -29,6 +29,10 @@ h3 {
   margin: 0;
 }
 
+.title-small {
+  font-size: clamp(1.2rem, 2vw, 1.8rem);
+}
+
 blockquote {
   font-size: clamp(1.5rem, 1.5vw, 2.5rem);
   margin: 0;
