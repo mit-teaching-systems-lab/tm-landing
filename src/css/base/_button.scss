@@ -1,24 +1,24 @@
 .btn {
-	background-color: var(--color--accent);
-	border: 0;
-	border-radius: var(--border-radius--pill);
-	color: var(--color--text-inverse);
-	display: inline-flex;
-	padding: var(--space--small) var(--space--medium);
-	text-decoration: none;
-	transition-duration: var(--transition--base);
-	transition-property: background-color, transform;
-	transition-timing-function: ease-in-out;
-	width: fit-content;
+  background-color: var(--color--accent);
+  border: 0;
+  border-radius: var(--border-radius--pill);
+  color: var(--color--text-inverse);
+  display: inline-flex;
+  padding: var(--space--small) var(--space--medium);
+  text-decoration: none;
+  transition-duration: var(--transition--base);
+  transition-property: background-color, transform;
+  transition-timing-function: ease-in-out;
+  width: fit-content;
 
-	&:hover {
-		background-color: var(--color--accent-dark);
-		transform: translateY(-0.15rem);
-	}
+  &:hover {
+    background-color: var(--color--accent-dark);
+    transform: translateY(-0.15rem);
+  }
 }
 
 .btn--cta {
-	font-size: clamp(1.1rem, 1.3vw, 3rem);
-	justify-self: center;
-	padding: var(--space--base) var(--space--large);
+  font-size: clamp(1.1rem, 1.3vw, 3rem);
+  justify-self: center;
+  padding: var(--space--base) var(--space--large);
 }
