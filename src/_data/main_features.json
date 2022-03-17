@@ -5,7 +5,7 @@
 			"description": "Use our robust collection of existing teaching scenarios, developed by MIT teacher educators and partners.",
 			"image": {
 				"url": "feature-scenarios-small",
-				"alt": "A kitten"
+				"alt": "Examples of different scenarios"
 			}
 		},
 		{
@@ -13,7 +13,7 @@
 			"description": "With our easy authoring tool, remix existing scenarios or design your own tailored to the needs of your learners.",
 			"image": {
 				"url": "feature-author-small",
-				"alt": "A kitten"
+				"alt": "Example of tool that allows author to tailor their scenarios"
 			}
 		},
 		{
@@ -21,7 +21,7 @@
 			"description": "Through cohorts for classes or PLCs, participants find the scenarios they need to complete and allow you to see their responses easily.",
 			"image": {
 				"url": "feature-cohorts-small",
-				"alt": "A kitten"
+				"alt": "Example of different cohorts"
 			}
 		}
 	]
