@@ -1,38 +1,38 @@
 {
-  "title": "Dive deeper into Teacher Moments",
-  "description": "Become a power user and explore even more features for creating and running your simulations.",
-  "list": [
-    {
-      "title": "Track participant choices for facilitation and debrief",
-      "description": "Rich data dashboards allow facilitators to see participant choices and prepare for debriefing, while complete data downloads support rigorous research on teacher learning.",
-      "image": {
-        "url": "deep-feature-data",
-        "alt": "A kitten"
-      }
-    },
-    {
-      "title": "Choices matter",
-      "description": "Through scenario branching, create “choose-your-own” adventure scenarios that let participants understand the consequences of their choices.",
-       "image": {
-        "url": "deep-feature-branching",
-        "alt": "A kitten"
-      }
-    },
-    {
-      "title": "AI coaches",
-      "description": "Artificially intelligent coaching agents can listen to participants as they play scenarios and offer dynamic supports to help learners reflect and practice.",
-       "image": {
-        "url": "deep-feature-ai",
-        "alt": "A kitten"
-      }
-    },
-    {
-      "title": "Multiplayer scenarios",
-      "description": "Real-time chat allows for participants to roleplay together as teachers and students.",
-       "image": {
-        "url": "deep-feature-multiplayer",
-        "alt": "A kitten"
-      }
-    }
-  ]
+	"title": "Dive deeper into Teacher Moments",
+	"description": "Become a power user and explore even more features for creating and running your simulations.",
+	"list": [
+		{
+			"title": "Track participant choices for facilitation and debrief",
+			"description": "Rich data dashboards allow facilitators to see participant choices and prepare for debriefing, while complete data downloads support rigorous research on teacher learning.",
+			"image": {
+				"url": "deep-feature-data-frame",
+				"alt": "Track participation choices"
+			}
+		},
+		{
+			"title": "Choices matter",
+			"description": "Through scenario branching, create “choose-your-own” adventure scenarios that let participants understand the consequences of their choices.",
+			"image": {
+				"url": "deep-feature-branching-frame",
+				"alt": "Choice branching"
+			}
+		},
+		{
+			"title": "AI coaches",
+			"description": "Artificially intelligent coaching agents can listen to participants as they play scenarios and offer dynamic supports to help learners reflect and practice.",
+			"image": {
+				"url": "deep-feature-ai-frame",
+				"alt": "AI coaching"
+			}
+		},
+		{
+			"title": "Multiplayer scenarios",
+			"description": "Real-time chat allows for participants to roleplay together as teachers and students.",
+			"image": {
+				"url": "deep-feature-multiplayer-adjust",
+				"alt": "Real-time chat"
+			}
+		}
+	]
 }
