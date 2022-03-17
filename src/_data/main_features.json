@@ -4,7 +4,7 @@
       "title": "Search our existing library of scenarios",
       "description": "Use our robust collection of existing teaching scenarios, developed by MIT teacher educators and partners.",
       "image": {
-        "url": "http://placekitten.com/600/300",
+        "url": "feature-scenarios",
         "alt": "A kitten"
       }
     },
@@ -12,7 +12,7 @@
       "title": "Remix scenarios or create your own",
       "description": "With our easy authoring tool, remix existing scenarios or design your own tailored to the needs of your learners.",
        "image": {
-        "url": "http://placekitten.com/600/300",
+        "url": "feature-author",
         "alt": "A kitten"
       }
     },
@@ -20,7 +20,7 @@
       "title": "Cohorts for teachers to learn together",
       "description": "Through cohorts for classes or PLCs, participants find the scenarios they need to complete and allow you to see their responses easily.",
        "image": {
-        "url": "http://placekitten.com/600/300",
+        "url": "feature-cohorts",
         "alt": "A kitten"
       }
     }
