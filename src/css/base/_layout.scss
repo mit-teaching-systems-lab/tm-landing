@@ -62,7 +62,7 @@ nav ul {
 }
 
 .logo-footer {
-	margin-bottom: 2rem;
+	margin-bottom: var(--space--large);
 }
 
 footer ul {
@@ -71,4 +71,13 @@ footer ul {
 	li {
 		margin-bottom: var(--space--base);
 	}
+}
+
+.center {
+	text-align: center;
+}
+
+.extra-space {
+	margin-top: var(--space--medium);
+	margin-bottom: var(--space--medium);
 }
