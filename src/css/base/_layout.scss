@@ -37,6 +37,7 @@ nav ul {
   li {
     align-content: flex-start;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: var(--space--medium);
 
