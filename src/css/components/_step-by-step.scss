@@ -2,6 +2,7 @@
   display: flex;
   gap: var(--space--base);
   position: relative;
+  text-align: center;
 
   &::before {
     background-color: var(--color--text);
@@ -25,8 +26,22 @@
   flex-direction: column;
   padding: var(--space--base);
   z-index: 1;
+  //width: clamp(9rem, 14vw, 15rem);
+  width: 15rem;
 }
 
 .step-by-step__title {
   font-weight: var(--font-weight--bold);
+}
+
+@media only screen and (max-device-width: 400px) { 
+  .step-by-step {
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    &::before {
+      display: none;
+    }
+  }
+
 }
