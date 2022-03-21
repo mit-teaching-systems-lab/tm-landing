@@ -3,6 +3,7 @@ section {
   display: grid;
   grid-template-columns: minmax(auto, var(--container--base));
   justify-content: center;
+  justify-items: center;
   padding: var(--space--large);
 }
 
@@ -23,6 +24,11 @@ nav ul {
 .l-hero {
   justify-items: center;
   text-align: center;
+}
+
+.l-hero--bottom {
+  grid-gap: var(--space--medium);
+  margin-top: -6rem;
 }
 
 .l-small {
