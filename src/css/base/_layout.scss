@@ -1,82 +1,86 @@
 footer,
 section {
-  display: grid;
-  grid-template-columns: minmax(auto, var(--container--base));
-  justify-content: center;
-  padding: var(--space--large);
+	display: grid;
+	grid-template-columns: minmax(auto, var(--container--base));
+	justify-content: center;
+	padding: var(--space--large);
 }
 
 header {
-  align-items: center;
-  display: flex;
-  grid-auto-flow: column;
-  justify-content: space-between;
-  padding: var(--space--base);
+	align-items: center;
+	display: flex;
+	grid-auto-flow: column;
+	justify-content: space-between;
+	padding: var(--space--base);
 }
 
 nav ul {
-  align-items: center;
-  display: flex;
-  gap: var(--space--base);
+	align-items: center;
+	display: flex;
+	gap: var(--space--base);
 }
 
 .l-hero {
-  justify-items: center;
-  text-align: center;
+	justify-items: center;
+	text-align: center;
 }
 
 .l-small {
-  margin: 0 auto;
-  max-width: 65ch;
+	margin: 0 auto;
+	max-width: 65ch;
 }
 
 footer {
-  grid-gap: var(--space--large);
+	grid-gap: var(--space--large);
 
-  ul {
-    columns: 2;
-  }
+	ul {
+		columns: 2;
+	}
 
-  li {
-    margin-bottom: var(--space--base);
-  }
+	li {
+		margin-bottom: var(--space--base);
+	}
 }
 
 .l-list {
-  display: grid;
-  grid-gap: var(--space--large);
+	display: grid;
+	grid-gap: var(--space--large);
 
-  li {
-    align-content: flex-start;
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--space--medium);
+	li {
+		align-content: flex-start;
+		display: flex;
+		flex-wrap: wrap;
+		gap: var(--space--medium);
 
-    > * {
-      flex: 1;
-    }
-  }
+		> * {
+			flex: 1;
+		}
+	}
 }
 
 .l-list--primary {
-  li {
-    align-items: center;
+	li {
+		align-items: center;
 
-    &:nth-child(even) {
-      flex-direction: row-reverse;
-    }
-  }
+		&:nth-child(even) {
+			flex-direction: row-reverse;
+		}
+	}
 }
 
 .l-list--secondary {
-  grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
 }
 
 .center {
-  text-align: center;
+	text-align: center;
 }
 
 .extra-space {
-  margin-bottom: var(--space--medium);
-  margin-top: var(--space--medium);
+	margin-bottom: var(--space--medium);
+	margin-top: var(--space--medium);
+}
+
+.spacer-huge {
+	margin-top: 12rem;
 }

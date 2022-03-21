@@ -1,0 +1,16 @@
+.hero-container {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.step-by-step {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 3rem;
+	position: absolute;
+	width: 70%;
+	bottom: -14.5rem;
+}
