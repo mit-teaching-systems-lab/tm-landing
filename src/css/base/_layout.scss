@@ -30,8 +30,12 @@ nav ul {
   max-width: 65ch;
 }
 
-footer ul {
-  columns: 2;
+footer {
+  grid-gap: var(--space--large);
+
+  ul {
+    columns: 2;
+  }
 
   li {
     margin-bottom: var(--space--base);
@@ -66,10 +70,6 @@ footer ul {
 
 .l-list--secondary {
   grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
-}
-
-.logo-footer {
-  margin-bottom: var(--space--large);
 }
 
 .center {
