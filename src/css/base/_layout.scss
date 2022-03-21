@@ -30,6 +30,18 @@ nav ul {
   max-width: 65ch;
 }
 
+footer {
+  grid-gap: var(--space--large);
+
+  ul {
+    columns: 2;
+  }
+
+  li {
+    margin-bottom: var(--space--base);
+  }
+}
+
 .l-list {
   display: grid;
   grid-gap: var(--space--large);
@@ -60,14 +72,11 @@ nav ul {
   grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
 }
 
-.logo-footer {
-  margin-bottom: 2rem;
+.center {
+  text-align: center;
 }
 
-footer ul {
-  columns: 2;
-
-  li {
-    margin-bottom: var(--space--base);
-  }
+.extra-space {
+  margin-bottom: var(--space--medium);
+  margin-top: var(--space--medium);
 }

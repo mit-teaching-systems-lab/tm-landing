@@ -6,32 +6,32 @@
       "title": "Track participant choices for facilitation and debrief",
       "description": "Rich data dashboards allow facilitators to see participant choices and prepare for debriefing, while complete data downloads support rigorous research on teacher learning.",
       "image": {
-        "url": "http://placekitten.com/600/300",
-        "alt": "A kitten"
+        "url": "deep-feature-data-frame",
+        "alt": "Track participation choices"
       }
     },
     {
       "title": "Choices matter",
       "description": "Through scenario branching, create “choose-your-own” adventure scenarios that let participants understand the consequences of their choices.",
-       "image": {
-        "url": "http://placekitten.com/600/300",
-        "alt": "A kitten"
-      }
+      "image": {
+        "url": "deep-feature-branching-frame",
+        "alt": "Choice branching"
+       }
     },
     {
       "title": "AI coaches",
       "description": "Artificially intelligent coaching agents can listen to participants as they play scenarios and offer dynamic supports to help learners reflect and practice.",
-       "image": {
-        "url": "http://placekitten.com/600/300",
-        "alt": "A kitten"
+      "image": {
+        "url": "deep-feature-ai-frame",
+        "alt": "AI coaching"
       }
     },
     {
       "title": "Multiplayer scenarios",
       "description": "Real-time chat allows for participants to roleplay together as teachers and students.",
-       "image": {
-        "url": "http://placekitten.com/600/300",
-        "alt": "A kitten"
+      "image": {
+        "url": "deep-feature-multiplayer-frame",
+        "alt": "Real-time chat"
       }
     }
   ]
