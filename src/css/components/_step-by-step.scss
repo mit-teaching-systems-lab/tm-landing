@@ -1,0 +1,29 @@
+.step-by-step {
+  display: flex;
+  gap: var(--space--base);
+  position: relative;
+
+  &::before {
+    background-color: var(--color--text);
+    content: "";
+    display: block;
+    height: var(--border-width--thick);
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 0;
+  }
+}
+
+.step-by-step__item {
+  background-color: var(--color--background-primary);
+  border: var(--border--base);
+  border-radius: var(--border-radius--base);
+  padding: var(--space--base);
+  z-index: 1;
+}
+
+.step-by-step__title {
+  font-weight: var(--font-weight--bold);
+}

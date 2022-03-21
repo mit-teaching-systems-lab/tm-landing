@@ -2,7 +2,7 @@ $colors-palette: (
   beige: #f6f6ee,
   black: #000000,
   dark-green: #174650,
-  gray: #f6f6f6,
+  gray: #e6e6e6,
   mauve: #853d61,
   mauve-dark: #5c1a3b,
   white: #ffffff
@@ -14,6 +14,7 @@ $colors-sections: (
   background-primary: white,
   background-secondary: gray,
   background-highlight: beige,
+  border: gray,
   text: dark-green,
   text-inverse: white
 );
