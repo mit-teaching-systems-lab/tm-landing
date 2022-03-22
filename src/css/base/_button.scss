@@ -25,7 +25,7 @@
 
 .arrow-doodles {
   &::before {
-    background-image: url("/static/images/red-swoop-arrow.svg");
+    background-image: url("/static/images/svg/red-swoop-arrow.svg");
     background-repeat: no-repeat;
     background-size: cover;
     content: "";
@@ -36,7 +36,7 @@
   }
 
   &::after {
-    background-image: url("/static/images/yellow-arrows.svg");
+    background-image: url("/static/images/svg/yellow-arrows.svg");
     background-repeat: no-repeat;
     background-size: cover;
     content: "";

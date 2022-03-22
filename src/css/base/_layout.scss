@@ -90,7 +90,7 @@ footer {
   position: relative;
 
   &::before {
-    background-image: url("/static/images/doodles-hero.svg");
+    background-image: url("/static/images/svg/doodles-hero.svg");
     background-repeat: no-repeat;
     content: "";
     display: none;
@@ -107,7 +107,7 @@ footer {
 }
 
 .hero-circle-doodle {
-  background-image: url('/static/images/hero-circle-doodle.svg');
+  background-image: url('/static/images/svg/hero-circle-doodle.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
