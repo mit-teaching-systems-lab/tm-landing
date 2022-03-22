@@ -3,6 +3,7 @@ section {
   display: grid;
   grid-template-columns: minmax(auto, var(--container--base));
   justify-content: center;
+  justify-items: center;
   padding: var(--space--large);
 }
 
@@ -25,6 +26,11 @@ nav ul {
   text-align: center;
 }
 
+.l-hero--bottom {
+  grid-gap: var(--space--medium);
+  margin-top: -6rem;
+}
+
 .l-small {
   margin: 0 auto;
   max-width: 65ch;
@@ -32,7 +38,6 @@ nav ul {
 
 footer {
   grid-gap: var(--space--large);
-
   ul {
     columns: 2;
   }
@@ -72,15 +77,11 @@ footer {
   grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
 }
 
-.center {
-  text-align: center;
-}
-
 .extra-space {
   margin-bottom: var(--space--medium);
   margin-top: var(--space--medium);
 }
 
-.spacer-huge {
-  margin-top: 12rem;
+.logo-footer {
+  justify-self: left;
 }

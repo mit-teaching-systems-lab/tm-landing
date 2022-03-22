@@ -1,0 +1,45 @@
+.step-by-step {
+  display: flex;
+  gap: var(--space--base);
+  position: relative;
+  text-align: center;
+
+  &::before {
+    background-color: var(--color--text);
+    content: "";
+    display: block;
+    height: var(--border-width--thick);
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 0;
+  }
+  
+  @media only screen and (max-width: 20em) {
+    .step-by-step {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+    &::before {
+      display: none;
+    }
+  }
+}
+
+.step-by-step__item {
+  align-items: center;
+  background-color: var(--color--background-primary);
+  border: var(--border--base);
+  border-radius: var(--border-radius--base);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: var(--space--base);
+  z-index: 1;
+}
+
+.step-by-step__title {
+  font-weight: var(--font-weight--bold);
+}
