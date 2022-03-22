@@ -97,9 +97,9 @@ footer {
 
     @media screen and (min-width: 30em) {
       display: inline-flex;
-      transform: translateY(78rem) translateX(2rem);
-      width: 70rem;
       height: 80rem;
+      transform: translateY(78rem) translateX(2rem);
+      width: 75rem;
     }
   }
 }
@@ -111,7 +111,6 @@ footer {
 }
 
 .deep-features-doodle {
-
   margin-top: -5rem;
 
   &::after {
@@ -119,10 +118,10 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     content: "";
-    display: inline-flex;
-    width: var(--space--large);
+    display: block;
     height: var(--space--large);
     transform: translateX(24rem) translateY(2rem);
+    width: var(--space--large);
   }
 
   &::before {
@@ -130,10 +129,10 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     content: "";
-    display: inline-flex;
+    display: block;
     height: 4rem;
-    width: 5rem;
     transform: translateY(7rem) translateX(-30rem);
+    width: 5rem;
   }
 }
 
@@ -144,12 +143,12 @@ footer {
     background-image: url("/static/images/svg/triple-circle-doodle.svg");
     background-repeat: no-repeat;
     content: "";
-    display: inline-flex;
+    display: block;
     height: 7rem;
-    width: 7rem;
-    position: absolute;
-    top: -6rem;
     left: -12rem;
+    top: -6rem;
+    position: absolute;
+    width: 7rem;
   }
 }
 
@@ -160,11 +159,27 @@ footer {
     background-image: url("/static/images/svg/red-squiggle-doodle.svg");
     background-repeat: no-repeat;
     content: "";
-    display: inline-flex;
+    display: block;
     height: 9rem;
-    width: 7rem;
     position: absolute;
     top: -6rem;
     right: -10rem;
+    width: 7rem;
+  }
+}
+
+.scenario-doodle {
+  position: relative;
+
+  &::before {
+    background-image: url("/static/images/svg/scenario-doodle.svg");
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    height: 40rem;
+    left: -1rem;
+    position: absolute;
+    top: -1rem;
+    width: 35rem;
   }
 }
