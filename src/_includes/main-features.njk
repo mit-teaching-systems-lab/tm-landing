@@ -1,7 +1,7 @@
 <h2 class="u-hide-visually">How do I use Teacher Moments?</h2>
 <ul class="l-list l-list--primary" role="list">
   {% for item in main_features.list %}
-  <li>
+  <li class="{{ item.class }}">
     <img src="/static/images/{{ item.image.url }}.png" alt="{{ item.image.alt }}" />
     <div>
       <h3>{{ item.title }}</h3>

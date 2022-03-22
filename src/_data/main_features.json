@@ -14,7 +14,8 @@
       "image": {
         "url": "feature-author-small",
         "alt": "Example of tool that allows author to tailor their scenarios"
-      }
+      },
+      "class": "triple-yellow-circle-doodle"
     },
     {
       "title": "Cohorts for teachers to learn together",
@@ -22,7 +23,8 @@
       "image": {
         "url": "feature-cohorts-small",
         "alt": "Example of different cohorts"
-      }
+      },
+      "class": "red-squiggle-doodle"
     }
   ]
 }

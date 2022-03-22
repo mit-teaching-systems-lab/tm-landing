@@ -87,21 +87,19 @@ footer {
 }
 
 .hero-doodle {
-  position: relative;
+  margin-top: -80rem;
 
   &::before {
     background-image: url("/static/images/svg/doodles-hero.svg");
     background-repeat: no-repeat;
     content: "";
     display: none;
-    height: 100vh;
-    position: absolute;
-    width: 100vw;
 
     @media screen and (min-width: 30em) {
-      display: inline-block;
-      left: -4rem;
-      top: -5rem;
+      display: inline-flex;
+      transform: translateY(78rem) translateX(2rem);
+      width: 70rem;
+      height: 80rem;
     }
   }
 }
@@ -113,7 +111,8 @@ footer {
 }
 
 .deep-features-doodle {
-  display: flex;
+
+  margin-top: -5rem;
 
   &::after {
     background-image: url("/static/images/svg/purple-burst-doodle.svg");
@@ -123,7 +122,7 @@ footer {
     display: inline-flex;
     width: var(--space--large);
     height: var(--space--large);
-    transform: translateX(4rem) translateY(-1rem);
+    transform: translateX(24rem) translateY(2rem);
   }
 
   &::before {
@@ -132,8 +131,40 @@ footer {
     background-size: cover;
     content: "";
     display: inline-flex;
-    height: var(--space--large);
-    width: 4rem;
-    transform: translateX(-10rem) translateY(var(--space--large));
+    height: 4rem;
+    width: 5rem;
+    transform: translateY(7rem) translateX(-30rem);
+  }
+}
+
+.triple-yellow-circle-doodle {
+  position: relative;
+
+  &::after {
+    background-image: url("/static/images/svg/triple-circle-doodle.svg");
+    background-repeat: no-repeat;
+    content: "";
+    display: inline-flex;
+    height: 7rem;
+    width: 7rem;
+    position: absolute;
+    top: -6rem;
+    left: -12rem;
+  }
+}
+
+.red-squiggle-doodle {
+  position: relative;
+
+  &::after {
+    background-image: url("/static/images/svg/red-squiggle-doodle.svg");
+    background-repeat: no-repeat;
+    content: "";
+    display: inline-flex;
+    height: 9rem;
+    width: 7rem;
+    position: absolute;
+    top: -6rem;
+    right: -10rem;
   }
 }
