@@ -22,3 +22,26 @@
   justify-self: center;
   padding: var(--space--base) var(--space--large);
 }
+
+.arrow-doodles {
+  &::before {
+    background-image: url("/static/images/red-swoop-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    display: inline-block;
+    height: 5rem;
+    transform: translateY(4rem);
+    width: 5rem;
+  }
+
+  &::after {
+    background-image: url("/static/images/yellow-arrows.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    display: inline-block;
+    height: 6rem;
+    width: 6rem;
+  }
+}
