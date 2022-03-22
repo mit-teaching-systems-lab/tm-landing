@@ -1,8 +1,13 @@
 .step-by-step {
   display: flex;
+  flex-direction: column;
   gap: var(--space--base);
   position: relative;
   text-align: center;
+
+  @media screen and (min-width: 30em) {
+    flex-direction: row;
+  }
 
   &::before {
     background-color: var(--color--text);
@@ -14,17 +19,6 @@
     top: 50%;
     width: 100%;
     z-index: 0;
-  }
-  
-  @media only screen and (max-width: 20em) {
-    .step-by-step {
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-    
-    &::before {
-      display: none;
-    }
   }
 }
 

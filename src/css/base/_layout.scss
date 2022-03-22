@@ -85,3 +85,23 @@ footer {
 .logo-footer {
   justify-self: left;
 }
+
+.hero-doodle {
+  position: relative;
+
+  &::before {
+    background-image: url("/static/images/doodles-hero.svg");
+    background-repeat: no-repeat;
+    content: "";
+    display: none;
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+
+    @media screen and (min-width: 30em) {
+      display: inline-block;
+      left: -4rem;
+      top: -5rem;
+    }
+  }
+}
