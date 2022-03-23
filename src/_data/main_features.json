@@ -6,7 +6,8 @@
       "image": {
         "url": "feature-scenarios-small",
         "alt": "Examples of different scenarios"
-      }
+      },
+      "class": "purple-scenario-doodle"
     },
     {
       "title": "Remix scenarios or create your own",
@@ -14,7 +15,8 @@
       "image": {
         "url": "feature-author-small",
         "alt": "Example of tool that allows author to tailor their scenarios"
-      }
+      },
+      "class": "triple-yellow-circle-doodle"
     },
     {
       "title": "Cohorts for teachers to learn together",
@@ -22,7 +24,8 @@
       "image": {
         "url": "feature-cohorts-small",
         "alt": "Example of different cohorts"
-      }
+      },
+      "class": "red-squiggle-doodle"
     }
   ]
 }

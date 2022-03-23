@@ -38,6 +38,7 @@ nav ul {
 
 footer {
   grid-gap: var(--space--large);
+
   ul {
     columns: 2;
   }
@@ -84,4 +85,55 @@ footer {
 
 .logo-footer {
   justify-self: left;
+}
+
+.l-hero-doodle {
+  background-image: url("/static/images/svg/hero-doodle.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hero-circle-doodle {
+  background-image: url("/static/images/svg/hero-circle-doodle.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.triple-yellow-circle-doodle {
+  &::before {
+    @include size(100%, 7rem);
+
+    background-image: url("/static/images/svg/triple-circle-doodle.svg");
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    transform: translate(-7rem, 1rem);
+  }
+}
+
+.red-squiggle-doodle {
+  &::before {
+    @include size(3rem, 4.5rem);
+
+    align-self: start;
+    background-image: url("/static/images/svg/red-squiggle-doodle.svg");
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    order: 3;
+    transform: translateY(-1rem);
+  }
+}
+
+.purple-scenario-doodle {
+  &::before {
+    @include size(100%, 3rem);
+
+    background-image: url("/static/images/svg/purple-scenario-doodle.svg");
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    transform: translateX(-2rem);
+  }
 }
