@@ -86,7 +86,7 @@ footer {
   justify-self: left;
 }
 
-.hero-doodle {
+/* .hero-doodle {
   margin-top: -80rem;
 
   &::before {
@@ -102,7 +102,7 @@ footer {
       width: 75rem;
     }
   }
-}
+} */
 
 .hero-circle-doodle {
   background-image: url('/static/images/svg/hero-circle-doodle.svg');
@@ -110,7 +110,7 @@ footer {
   background-size: cover;
 }
 
-.deep-features-doodle {
+/* .deep-features-doodle {
   margin-top: -5rem;
 
   &::after {
@@ -134,52 +134,43 @@ footer {
     transform: translateY(7rem) translateX(-30rem);
     width: 5rem;
   }
-}
+} */
 
 .triple-yellow-circle-doodle {
-  position: relative;
 
-  &::after {
+  &::before {
+    @include size(100%, 7rem);
+
     background-image: url("/static/images/svg/triple-circle-doodle.svg");
     background-repeat: no-repeat;
     content: "";
     display: block;
-    height: 7rem;
-    left: -12rem;
-    top: -6rem;
-    position: absolute;
-    width: 7rem;
+    transform: translate(-7rem, 1rem);
   }
 }
 
 .red-squiggle-doodle {
-  position: relative;
 
-  &::after {
+  &::before {
+    @include size(100%, 8.5rem);
+
     background-image: url("/static/images/svg/red-squiggle-doodle.svg");
     background-repeat: no-repeat;
     content: "";
     display: block;
-    height: 9rem;
-    position: absolute;
-    top: -6rem;
-    right: -10rem;
-    width: 7rem;
+    transform: translate(-7rem, 1rem);
   }
 }
 
-.scenario-doodle {
-  position: relative;
+.purple-scenario-doodle { 
 
   &::before {
-    background-image: url("/static/images/svg/scenario-doodle.svg");
+    @include size(100%, 3rem);
+
+    background-image: url("/static/images/svg/purple-scenario-doodle.svg");
     background-repeat: no-repeat;
     content: "";
     display: block;
-    height: 40rem;
-    left: -1rem;
-    position: absolute;
-    top: -1rem;
-    width: 35rem;
+    transform: translateX(-2rem);
   }
 }
