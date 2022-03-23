@@ -38,6 +38,7 @@ nav ul {
 
 footer {
   grid-gap: var(--space--large);
+
   ul {
     columns: 2;
   }
@@ -84,6 +85,13 @@ footer {
 
 .logo-footer {
   justify-self: left;
+}
+
+.l-hero-doodle {
+  background-image: url("/static/images/svg/hero-doodle.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /* .hero-doodle {
