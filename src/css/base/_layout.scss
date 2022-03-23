@@ -94,24 +94,6 @@ footer {
   background-size: contain;
 }
 
-/* .hero-doodle {
-  margin-top: -80rem;
-
-  &::before {
-    background-image: url("/static/images/svg/doodles-hero.svg");
-    background-repeat: no-repeat;
-    content: "";
-    display: none;
-
-    @media screen and (min-width: 30em) {
-      display: inline-flex;
-      height: 80rem;
-      transform: translateY(78rem) translateX(2rem);
-      width: 75rem;
-    }
-  }
-} */
-
 .hero-circle-doodle {
   background-image: url("/static/images/svg/hero-circle-doodle.svg");
   background-repeat: no-repeat;
