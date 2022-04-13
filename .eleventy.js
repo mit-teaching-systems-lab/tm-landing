@@ -1,13 +1,14 @@
-module.exports = function(eleventyConfig) {
+module.exports = (eleventyConfig) => {
   eleventyConfig.addWatchTarget("./src/css/");
   eleventyConfig.addWatchTarget("./src/js/");
   eleventyConfig.addPassthroughCopy("./src/static");
-
   eleventyConfig.addFilter("keys", obj => Object.keys(obj));
-  eleventyConfig.addFilter("except", (arr=[]) => {
-    return arr.filter(function(value) {
-      return value != "all";
-    }).sort();
+  eleventyConfig.addFilter("except", (arr=[]) => arr.filter(value => value != "all").sort());
+  eleventyConfig.setBrowserSyncConfig({
+    middleware(_req, res, next) {
+      res.setHeader('Access-Control-Allow-Origin', '*');
+      next();
+    }
   });
   
   return {
