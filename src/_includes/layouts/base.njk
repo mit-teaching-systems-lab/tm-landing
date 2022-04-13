@@ -21,6 +21,21 @@
     {{ content | safe }}
   </main>
   {% include "footer.njk" %}
+  <script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    let brandedLocationOrigin = location.search.slice(1).trim();
+    if (brandedLocationOrigin) {
+      if (brandedLocationOrigin.endsWith('/')) {
+        brandedLocationOrigin = brandedLocationOrigin.slice(1);
+      }
+      const brandableAnchors = document.querySelectorAll('[data-brandable-anchor]');
+      brandableAnchors.forEach(brandableAnchor => {
+        const { pathname } = brandableAnchor;
+        brandableAnchor.setAttribute('href', `${brandedLocationOrigin}${pathname}`);
+      });
+    }
+  });
+  </script>
   <script type="text/javascript" src="/app.js" async></script>
 </body>
 </html>
