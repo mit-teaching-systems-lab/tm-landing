@@ -17,7 +17,8 @@
     "serve": "@11ty/eleventy --serve",
     "sass:build": "sass --no-source-map --load-path=node_modules src/css:dist --style=compressed",
     "sass:watch": "sass --no-source-map --load-path=node_modules src/css:dist --watch",
-    "start": "npm-run-all -p serve sass:watch js:watch"
+    "start": "npm-run-all -p serve sass:watch js:watch",
+    "production:start": "npm run serve"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
