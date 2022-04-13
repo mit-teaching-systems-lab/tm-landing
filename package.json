@@ -14,7 +14,7 @@
     "js:watch": "rollup -c rollup.config.js -w",
     "lint:css": "stylelint src/css/**/*.scss",
     "lint:js": "eslint \"src/js/**/*.js\" --quiet",
-    "serve": "@11ty/eleventy --serve",
+    "serve": "eleventy --serve",
     "sass:build": "sass --no-source-map --load-path=node_modules src/css:dist --style=compressed",
     "sass:watch": "sass --no-source-map --load-path=node_modules src/css:dist --watch",
     "start": "npm-run-all -p serve sass:watch js:watch",
