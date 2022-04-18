@@ -2,7 +2,7 @@
 <ul class="l-list l-list--primary" role="list">
   {% for item in main_features.list %}
   <li class="{{ item.class }}">
-    <img src="/static/images/{{ item.image.url }}.png" alt="{{ item.image.alt }}" />
+    <img class="l-feature-img" src="/static/images/{{ item.image.url }}.png" alt="{{ item.image.alt }}" />
     <div>
       <h3>{{ item.title }}</h3>
       <p>{{ item.description }}</p>
