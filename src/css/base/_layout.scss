@@ -78,9 +78,10 @@ footer {
   grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
 }
 
-.extra-space {
-  margin-bottom: var(--space--medium);
-  margin-top: var(--space--medium);
+.l-feature-img {
+  max-height: 35rem;
+  max-width: 35rem;
+  object-fit: contain;
 }
 
 .logo-footer {
@@ -108,6 +109,7 @@ footer {
     background-repeat: no-repeat;
     content: "";
     display: block;
+    margin-top: -7rem;
     transform: translate(-7rem, 1rem);
   }
 }
