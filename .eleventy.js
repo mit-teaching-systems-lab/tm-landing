@@ -1,5 +1,10 @@
 const isProduction = process.env.DEPLOYMENT_ENV === 'production';
 
+const middleware = (_req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  next();
+};
+
 module.exports = (eleventyConfig) => {
   eleventyConfig.addWatchTarget("./src/css/");
   eleventyConfig.addWatchTarget("./src/js/");
@@ -9,12 +14,10 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.setBrowserSyncConfig(
     isProduction ? {
       ghostMode: false,
+      middleware,
     } : {
-    middleware(_req, res, next) {
-      res.setHeader('Access-Control-Allow-Origin', '*');
-      next();
-    }
-  });
+      middleware,
+    });
   
   return {
     templateFormats: [
